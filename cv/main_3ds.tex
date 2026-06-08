@@ -1,0 +1,155 @@
+%% CV — Robert Tuma
+%% Tailored for: Working Student – Design & Digital Fabrication Specialist, Dassault Systèmes (3DEXPERIENCE Lab)
+%% Compile with: lualatex main_3ds.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Robert Tuma - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+
+\name{Robert}{Tuma}
+\address{Munich, Bavaria, Germany}{}{}
+\phone[mobile]{[ADD PHONE]}
+\email{[ADD EMAIL]}
+\extrainfo{\href{[ADD LINKEDIN URL]}{LinkedIn}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Maschinenwesen student at TU Munich (final year, B.Sc.) who designs things and builds them. SolidWorks and CATIA V5/3DX on the engineering side; Shaper Origin CNC and Figma on the making and product side. Two multi-month CAD design projects at TUM, CATIA V5/3DX applied in production at Deutsche Aircraft, and thirteen months of end-to-end product design at an early-stage startup. German native, English fluent.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{CAD Design:} SolidWorks (two major TUM design projects: cable car suspension assembly with full component calculation and technical drawings; cable car gearbox design); CATIA V5 / 3DExperience (Deutsche Aircraft: sheet metal conversion, manufacturing-ready 2D drawings with tolerances)
+
+\item \textbf{Digital Fabrication:} Shaper Origin handheld CNC router (multiple personal woodworking projects; full workflow from design file through toolpath preparation, machine operation, and troubleshooting to finished physical output)
+
+\item \textbf{Product \& UX Design:} Figma (13 months at a music tech startup: UI/UX layouts, wireframing, prototyping, user journey mapping, physical product concepts including apparel and brand assets)
+
+\item \textbf{Software \& Tooling:} Python (scripting, GUI development; built and deployed a customTkinter dashboard application); DXL scripting (IBM DOORS automation)
+
+\item \textbf{Languages:} German (native), English (fluent, professional working proficiency)
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{Jan 2026 -- May 2026}{Product Design \& Strategy}{MOOSYC}{Munich, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Owned product design across web and mobile: concept sketches through to finished Figma prototypes
+    \item Designed artist-facing workflows including a song pitch experience with a physical-world interaction concept (typewriter, letter stamp, mailbox)
+    \item Created merchandising concepts (apparel, caps, tote bags) with attention to brand identity and physical production constraints
+    \item Contributed to product roadmap, feature prioritisation, and design strategy directly with the founding team
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{May 2025 -- Dec 2025}{Product Design \& Strategy}{Stealth Startup (music tech)}{Munich, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item UX design and product vision contribution at an early-stage startup; supported Y Combinator pitch preparation
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{Oct 2024 -- Jan 2025}{Cabin and Systems Intern (Ingenieurspraktikum)}{Deutsche Aircraft GmbH}{Oberpfaffenhofen, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item \textbf{CAD / Production:} Converted 3D models to sheet metal parts in CATIA V5/3DX; produced manufacturing-ready 2D drawings with tolerances and material specifications for the D328eco programme
+    \item \textbf{Software:} Independently designed and built a Python (customTkinter) operations dashboard for the hangar: live status toggles, file upload, live ticker, dual display modes; deployed at hangar entrance with no brief or supervision
+    \item \textbf{Systems Engineering:} Compared ARP 4754A and 4754B standards; produced team-facing gap documentation and onboarding reference materials; MIT Fundamentals of Systems Engineering certified
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{Nov 2022 -- Sep 2024}{Department -- Printing Office}{Fachschaft Maschinenbau, TU München}{Garching, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Operated industrial equipment (Bourg Binding System 3002, Polar Mohr 66); supported TUM Maschinenwesen student services
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2022 -- 2027 (expected)}{B.Sc. Maschinenwesen (Mechanical Engineering)}{Technische Universität München (TUM)}{Garching, Germany}{}{\vspace{1pt}
+Specialisation: Product development / Konstruktion. Key modules: Grundlagen CAD und Maschinenzeichnen; Maschinenelemente 1--2; Technische Mechanik 1--3; Werkstoffe des Maschinenbaus. In progress: Human and Humanity Centered Design; Automatisierungstechnik.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{CNC Woodworking (Shaper Origin):} Designed and produced a series of woodworking pieces: full workflow from CAD file through toolpath preparation, machine operation, and troubleshooting to finished physical output. Developed a practical feel for where digital design intent meets (and sometimes fights) real-world material behaviour.
+\end{itemize}
+
+% ============================================================
+%     CERTIFICATIONS
+% ============================================================
+
+\section{Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{MIT Fundamentals of Systems Engineering} -- completed Jan 2025 (stakeholder analysis, system architecture, V\&V)}
+\item{\textbf{DO-326/ED-202 Aviation Cybersecurity} -- completed Jan 2025}
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request. Official Internship Reference (Zeugnis) from Deutsche Aircraft GmbH available.}
+\end{itemize}
+
+\end{document}
