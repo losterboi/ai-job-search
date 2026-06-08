@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV — Robert Tuma
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -11,31 +10,31 @@
 \moderncvcolor{blue}
 
 % Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
+\usepackage{needspace}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Robert Tuma - CV},
     pdfpagemode=FullScreen,
 }
-\usepackage[scale=0.80]{geometry}
+\usepackage[scale=0.77]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+% Personal data
+\name{Robert}{Tuma}
+\address{Munich, Bavaria, Germany}{}{}
+\phone[mobile]{[ADD PHONE]}
+\email{[ADD EMAIL]}
+\extrainfo{\href{[ADD LINKEDIN URL]}{LinkedIn}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Maschinenbau-Student im 4. Jahr an der TU München (Abschluss Frühjahr 2027) mit Praktika in der Luft- und Raumfahrtindustrie (Deutsche Aircraft GmbH) sowie ~13 Monaten Produktentwicklungs- und UX-Erfahrung bei einem Music-Tech-Startup. Verbindet ingenieurmäßiges Denken (CAD, Requirements Engineering, Systemtechnik) mit gestalterischem Anspruch (Figma, Produktstrategie, UX). Verfügbar als Werkstudent (ca. 15–16 Std./Woche) in München.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Product \& UX Design:} Figma (UI/UX layouts, wireframing, prototyping, component design, user journey mapping); strong visual design sense developed through real startup product work
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{CAD \& Engineering Design:} SolidWorks (assemblies, component calculation, norm part selection, 2D technical drawings); CATIA V5 / 3DExperience (sheet metal conversion, production drawings)
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Requirements Engineering \& Systems:} IBM DOORS (module creation, DXL scripting, workflow automation); ARP 4754A/B; MIT Systems Engineering framework; DO-326/ED-202 aviation cybersecurity
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Software \& Data:} Python (scripting, GUI development with customTkinter); DXL scripting; Microsoft Excel (advanced — BOM alignment, deduplication, visualisation); SAP (basic)
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Languages:} German (native), English (fluent — professional working proficiency)
 
 \end{itemize}
 
@@ -76,32 +75,42 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Jan 2026 -- May 2026}{Product Vision \& Strategy}{MOOSYC}{Munich, Germany}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Collaborated directly with founder on product vision, roadmap thinking, and design strategy at an early-stage music tech startup
+    \item Built UI/UX layouts across web and mobile in Figma; designed artist-facing tools and user journeys
+    \item Created song pitch experience with typewriter/letter stamp/mailbox interaction concept
+    \item Designed creative merchandising concepts including apparel and brand assets
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{May 2025 -- Dec 2025}{Product Vision \& Strategy}{Stealth Startup (music tech)}{Munich, Germany}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item UX concept development, Figma-based design, and product vision contribution at an early-stage startup
+    \item Contributed to Y Combinator pitch preparation and supporting materials
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Oct 2024 -- Jan 2025}{Cabin and Systems Intern (Ingenieurspraktikum)}{Deutsche Aircraft GmbH}{Oberpfaffenhofen, Germany}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item \textbf{Requirements Engineering:} Created IBM DOORS test modules; wrote DXL scripts for welcome screen, access control, and workflow automation; produced comprehensive DOORS user guide
+    \item \textbf{Systems Engineering:} Compared ARP 4754A and ARP 4754B standards; documented gaps and produced team-facing reference documents; MIT Fundamentals of Systems Engineering certified
+    \item \textbf{Software:} Independently designed and built Python (customTkinter) dashboard for hangar operations — live status toggles, file upload, live ticker, dual display modes
+    \item \textbf{CAD/Production:} Converted 3D models to sheet metal parts in CATIA V5/3DX; produced manufacturing-ready 2D drawings with tolerances and material specifications
+    \item \textbf{Data Management:} Aligned BOM data between 3DX and SAP for D328eco centre section using Excel; colour-coded discrepancy reports
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{Nov 2022 -- Sep 2024}{Department — Printing Office}{Fachschaft Maschinenbau, TU München}{Garching, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Operated industrial printing equipment (Bourg Binding System 3002, Polar Mohr 66); supported student services for TUM Maschinenwesen faculty
 \end{itemize}}}
 
 \end{itemize}
@@ -114,46 +123,22 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\needspace{5\baselineskip}
+\item{\cventry{2022 -- 2027 (expected)}{B.Sc. Maschinenwesen (Mechanical Engineering)}{Technische Universität München (TUM)}{Garching, Germany}{}{\vspace{1pt}
+Specialisation: Product development / Konstruktion and design. Key modules: Höhere Mathematik 1--3, Technische Mechanik 1--3, Maschinenelemente 1--2, Grundlagen CAD, Fluidmechanik, Regelungstechnik, Thermodynamik, Werkstoffe des Maschinenbaus, Modellierung von Unsicherheiten und Daten.
 }}
 
 \end{itemize}
 
 % ============================================================
-%     LANGUAGES
+%     CERTIFICATIONS
 % ============================================================
 
-\section{Languages}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{MIT Fundamentals of Systems Engineering} -- completed Oct 2024 -- Jan 2025 (stakeholder analysis, requirements definition, system architecture, V\&V)}
+\item{\textbf{DO-326/ED-202 Aviation Cybersecurity} -- completed Oct 2024 -- Jan 2025 (IUEI/cyber threats, ASISP framework)}
 \end{itemize}
 
 % ============================================================
@@ -163,7 +148,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{References}
 \vspace{1pt}
 \begin{itemize}
-\item{Available upon request.}
+\item{Available upon request. Official Internship Reference (Zeugnis) from Deutsche Aircraft GmbH available.}
 \end{itemize}
 
 \end{document}

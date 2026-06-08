@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Figma / UX design; Python scripting and GUI development; SolidWorks CAD; IBM DOORS and requirements engineering; systems engineering (ARP 4754A/B); Excel data analysis; product development thinking
+**Moderate match areas:** CATIA V5 / 3DX; aviation standards; sustainable aviation; DXL scripting; SAP basics
+**Weak match areas:** FEM / structural simulation; thermal systems engineering; production engineering depth; backend/production-grade software development; electrical engineering
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** UX/product design (music tech startup); systems engineering / requirements management (aviation internship); Python tooling and automation; CAD/product development (university projects + internship)
+**Moderate:** Sustainable aviation and propulsion research; stakeholder documentation; data management (BOM, Excel)
+**Entry-level (student context):** Formal project management; team leadership; production manufacturing
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -63,19 +63,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Build practical engineering and product experience across multiple domains during the B.Sc. (Werkstudent roles are the vehicle for this)
+- Find a direction — aerospace/aviation, mobility/automotive, hardware startups, or product-focused tech — to focus on post-graduation
+- Develop both the engineering depth (CAD, systems, product development) and design credibility (Figma, UX, product strategy) that make him a rare generalist who can bridge both worlds
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter:** Evaluate not just whether he *can* do the tasks, but whether the tasks will *energize* him. Consider:
+- Tasks that energize: designing and building things (physical or digital); solving ambiguous problems with real outputs; learning new technical domains quickly; contributing to something early-stage and ambitious
+- Tasks that drain: purely repetitive manual tasks; administrative work with no design or engineering component; work with no clear ownership or team context
+- Non-task factors: team culture (open, collaborative, no hierarchy substituting substance); degree of autonomy; in-person or hybrid work
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Flexibility:** ~15–16 h/week during semester; timing must be compatible with TUM coursework and exam periods
+- **Location:** Munich in-person or hybrid; no commute beyond the city region
+- **Professional development:** Each role should add a new domain, technology, or type of responsibility to the growing portfolio
 
 ### 6. Salary Benchmark (Optional)
 

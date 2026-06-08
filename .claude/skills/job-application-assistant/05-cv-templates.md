@@ -106,11 +106,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Product Development / Konstruktion roles:**
+> Maschinenbau-Student im 4. Jahr an der TU München mit praktischer Erfahrung in CAD-Konstruktion (SolidWorks, CATIA V5), Requirements Engineering und Python-basierter Tool-Entwicklung. Internship bei Deutsche Aircraft GmbH: eigenständige Entwicklung eines Python-Dashboards für den Hangar-Betrieb, IBM-DOORS-Automatisierung und Mitwirkung an der D328eco-Entwicklung. Suche Werkstudentenstelle, in der technische Präzision und produktgestalterisches Denken gleichermaßen gefragt sind.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For UX / Product Design roles:**
+> Mechanical engineering student at TUM with ~13 months of real startup product design experience at a music tech company. Led UI/UX work across web and mobile in Figma — wireframes, prototypes, user journey maps, brand assets — working directly with the founding team on product vision and feature prioritisation. Combines an engineer's structured thinking with a designer's eye; comfortable bridging technical constraints and user-facing experience.
+
+**For Systems Engineering / Aerospace roles:**
+> Final-year Maschinenbau student at TU Munich with hands-on systems engineering experience from a 4-month internship at Deutsche Aircraft GmbH (D328eco program). Worked across ARP 4754A/B gap analysis, IBM DOORS requirements management (including DXL scripting), sustainable aviation research (SAF/PtL), and CATIA V5 sheet metal production drawings. MIT Fundamentals of Systems Engineering and DO-326/ED-202 aviation cybersecurity certified. Seeking a Werkstudent role where rigour and initiative matter.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

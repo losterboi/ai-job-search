@@ -8,32 +8,47 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### Python Dashboard — Deutsche Aircraft (Initiative / Self-direction)
+**Source:** CV / Internship at Deutsche Aircraft GmbH, Oct 2024–Jan 2025
+**What happened:** Independently designed and built a Python (customTkinter) dashboard application for hangar operations — not assigned, self-initiated to solve a real operational problem
+**Why it matters:** Ideal for "Tell me about a time you took initiative", "Have you ever built something without being asked?", "How do you handle unstructured tasks?"
+**S/T/A/R stub:**
+- Situation: Hangar team had no central display for live operational status; information was scattered
+- Task: No one assigned this — I identified the gap and proposed building a tool
+- Action: Designed and developed a Python dashboard with customTkinter; added live status toggles, file upload, live ticker, and dual laptop/monitor display modes; deployed at hangar entrance
+- Result: Dashboard was adopted and used at the hangar entrance; received explicit mention in official Zeugnis
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### ARP 4754A/B Gap Analysis — Deutsche Aircraft (Analytical rigor / Documentation)
+**Source:** CV / Internship at Deutsche Aircraft GmbH
+**What happened:** Tasked with studying and comparing two aviation standards (ARP 4754A and 4754B) and producing a team-facing gap document
+**Why it matters:** "Tell me about a time you had to learn something complex quickly", "How do you approach documentation?", "Give an example of analytical work with real stakeholders"
+**S/T/A/R stub:**
+- Situation: Team needed clarity on how 4754B differed from the previous 4754A standard and what the implications were for D328eco development
+- Task: Study both standards independently and produce a structured gap summary usable by engineers and management
+- Action: Read both standards in full; structured findings into a referenced gap document and accompanying glossary; also created a requirements classes reference document for team onboarding
+- Result: Documents were adopted for internal team use; explicitly praised in the Zeugnis for documentation quality
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### MOOSYC Song Pitch UX (Design thinking / Rapid iteration)
+**Source:** CV / Product work at MOOSYC, Jan–May 2026
+**What happened:** Designed a novel song pitch experience for artists — a typewriter/letter stamp/mailbox concept — as part of the artist-facing product
+**Why it matters:** "Tell me about a creative project you're proud of", "How do you approach UX for a new feature?", "Have you worked on something from concept to prototype?"
+**S/T/A/R stub:**
+- Situation: MOOSYC needed a way for artists to pitch songs that felt engaging and on-brand, not just a standard upload form
+- Task: Design the end-to-end user journey and Figma prototype for the pitch experience
+- Action: Developed the typewriter/letter stamp/mailbox interaction concept; built full Figma layouts for the flow; iterated with the founder on interaction details and visual language
+- Result: Concept was validated and moved forward; contributed to product pitch materials
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
-
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### SolidWorks Seilrollen-Batterie (Engineering under constraints / CAD)
+**Source:** CV / TUM university project
+**What happened:** Designed a full 8-wheel suspension assembly (Seilrollen-Batterie für Seilbahnen) as a major CAD project, including component calculation and norm part selection
+**Why it matters:** "Tell me about a technical engineering project", "How do you approach a complex CAD design?", "Give an example of applying theoretical knowledge practically"
+**S/T/A/R stub:**
+- Situation: University project requiring a complete mechanical design for a cable car suspension assembly
+- Task: Design the full assembly from scratch — components, calculations, norm part selection, technical drawings
+- Action: Used SolidWorks throughout; performed component-level calculations; selected standard parts via TraceParts; produced assembly groups and manufacturing-ready 2D drawings
+- Result: Completed project within the semester; developed SolidWorks proficiency sufficient for real-world intern use at Deutsche Aircraft
 
 ## Common Tough Questions
 
