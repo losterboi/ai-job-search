@@ -31,7 +31,21 @@ When the user provides a job posting (URL or text), follow this workflow:
 - Create `cover_letters/cover_<company>_<role>.tex`
 - Ensure the letter connects specific experience to the role requirements
 
-### Step 4: Interview Preparation
+### Step 4: AI-Naturalness Review (run on CV and cover letter before presenting)
+
+After drafting both documents, run a dedicated humanization pass using the checklist in `03-writing-style.md` (section: "AI-Naturalness Review"). This step checks for the specific patterns that AI detectors and experienced recruiters flag.
+
+**What to check:**
+- Banned vocabulary list (see `03-writing-style.md`) — scan every sentence
+- Sentence-length uniformity — vary short/medium/long; pure parallel structure everywhere is a signal
+- Over-qualified hedging ("seeks to", "aims to", "endeavours to") — replace with direct claims
+- Bullet openings — if more than 2 bullets in a list start with the same verb type, vary them
+- Passive constructions used for modesty ("was responsible for", "was involved in") — flip to active
+- Context-free superlatives ("highly motivated", "strong communication skills") — cut or replace with a specific example
+
+**Output:** After the pass, report to the user which sentences or phrases were changed and why. Use the format: `[Original] → [Revised] (reason)` for any non-trivial change. This gives the user visibility and lets them override any revision that doesn't feel like their voice.
+
+### Step 5: Interview Preparation
 - Follow the framework in `07-interview-prep.md`
 - Prepare STAR-format answers for likely questions
 - Identify role-specific talking points

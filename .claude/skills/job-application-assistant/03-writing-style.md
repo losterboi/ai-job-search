@@ -104,3 +104,63 @@ The cover letter is **not a CV repetition**. It should be forward-looking:
 - Default to the language of the job posting
 - Cover letters in the posting's language should feel natural, not translated
 - Slightly warmer, more personal tone may be acceptable in some languages
+
+---
+
+## AI-Naturalness Review
+
+Run this as a dedicated pass after drafting the CV and cover letter. The goal is not to "trick" a detector — it's to produce writing that actually sounds like Robert, not like a language model completing a prompt.
+
+### Banned vocabulary (flag and replace every instance)
+
+These words and phrases are statistically over-represented in AI-generated text and are the first thing both detectors and experienced recruiters notice:
+
+| Flag | Replace with |
+|------|-------------|
+| leverage / leveraging | use, apply, draw on |
+| navigate / navigating | work through, handle, manage |
+| delve / delve into | explore, look at, dig into |
+| foster | build, develop, strengthen |
+| testament to | evidence of, proof of, shows |
+| crucial / pivotal | important, key, central |
+| seamlessly | (cut; or be specific about what made it smooth) |
+| robust | strong, solid, reliable — or just cut it |
+| groundbreaking / cutting-edge | (only use if independently verifiable) |
+| dynamic (as an adjective for environments) | fast-moving, varied, hands-on |
+| stakeholder alignment | working with [specific people] to agree on [specific thing] |
+| synergy / synergies | (cut entirely) |
+| passion / passionate about | (cut; show it through specifics instead) |
+| strive / endeavour / seek to | (cut the hedge; make the direct claim) |
+| honed | developed, built, sharpened |
+| spearheaded | led, drove, initiated |
+| in order to | to |
+| ensuring that | so that / making sure |
+| with a keen eye for | (cut; show it with an example) |
+
+### Sentence structure checks
+
+1. **Uniform sentence length** — read the cover letter aloud. If every sentence takes about the same time to say, that's a signal. Add a short punchy sentence somewhere. Break a long one in two.
+
+2. **Every bullet starts the same way** — if 3+ bullets in a list all start with past-tense verbs (Designed, Built, Created), vary the structure: lead one with a noun phrase, one with a result, one with a context clause.
+
+3. **Perfect parallelism everywhere** — AI tends to produce lists where every item is exactly the same grammatical shape. One or two items can break the pattern naturally.
+
+4. **No contractions** — in English cover letters, at least one contraction ("I've", "it's", "I'd") makes the tone warmer and more personal. Zero contractions reads as formal-AI.
+
+5. **Hedged claims** — "I aim to contribute my skills to..." should be "I bring X" or simply cut. AI adds hedges; confident people don't.
+
+### German-language specific signals
+
+- **Nominalisierungsstil** (nominalisation) — AI in German over-uses noun constructions ("die Durchführung von Analysen" instead of "ich analysierte"). Flip to active verb forms.
+- **Konjunktiv I overuse** — "Ich würde mich freuen" is fine in closing, but repeated würde/könnte/möchte throughout the body sounds distanced and AI-generated. Use indicative where possible.
+- **Formulaic closing phrases** — "Mit freundlichen Grüßen und der Bitte um eine positive Rückmeldung verbleibe ich..." — cut to simply "Mit freundlichen Grüßen,"
+
+### What to report to the user
+
+After the pass, list non-trivial changes as:
+```
+[Original text] → [Revised text]
+Reason: [one-line explanation]
+```
+
+Skip trivial word swaps (leverage → use). Report structural changes and anything that touches meaning. The user can override any change that doesn't feel right.
