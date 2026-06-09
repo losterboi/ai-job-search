@@ -95,6 +95,10 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - Pure sales or back-office roles with no engineering or design component
 - Companies with no engineering product or physical artefact
 
+## Environment Notes
+
+- LaTeX is installed on the host Mac at `/Library/TeX/texbin/`. Always use this full path when compiling `.tex` files. CV: `/Library/TeX/texbin/lualatex`, cover letter: `/Library/TeX/texbin/xelatex`. Do not attempt to install LaTeX.
+
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
